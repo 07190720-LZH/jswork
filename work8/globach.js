@@ -23,12 +23,12 @@ function goldbach() {
         }
     }    
     var str=''
-    console.log(odd)
+    
     for(let i=0;i<(arr.length)/2;i++){
         for(let j=0;j<arr.length;j++){
             if((arr[i]+arr[j])===Number(odd)){
               str+='<div>'+odd+"可以拆分为两个素数"+arr[i]+"与"+arr[j]+"的和"+'</div>'
-              console.log(odd+"可以拆分为两个素数"+arr[i]+"与"+arr[j]+"的和")
+              
             }
         }
     }
