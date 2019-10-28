@@ -96,7 +96,7 @@ function  creatOption(obj,data) {
      if(collegeSelect.value>=0){
         majorSelect.onchange();
      }else{
-        classSelect.options.length=0;
+        classSelect.options.length=0;   
      }
  };
 
