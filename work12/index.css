@@ -1,7 +1,7 @@
 body{
     text-align: center;
 }
-.seltear{
+.selyear{
     margin: 0 auto;
     width: 720px;
 }
@@ -26,4 +26,7 @@ table{
     float:left;
     margin: 10px;
     font-family:arial;
+}
+.selyear span{
+    cursor: pointer;
 }
