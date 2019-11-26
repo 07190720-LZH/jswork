@@ -13,7 +13,7 @@
         }
         return '<table>' + html + '</table>';
     };
-    var builder = {
+    var builder = {  
         toHTML: function (obj) {
             var html = this.item[obj.tag](this.attr(obj.attr), obj.option);
             return '<tr><th>' + obj.text + '</th><td>' + html + '</td></tr>';
