@@ -89,7 +89,7 @@
     position: relative;
     top: 1px;
 }
-.cart-table-price{
+.cart-total-price{
     color:#FF3334;
     font-weight:bold;
     font-size:16px;
