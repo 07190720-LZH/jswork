@@ -49,7 +49,7 @@ function getRegMsg(name,tips){
          msg={'success': '手机号输入正确', 'error': tips};
          break;
      case 'email':
-         reg=/^(w+(\_|\-|\.)*)+@(\w+(\-)?)+(\.\w{2,})+$/;
+         reg=/^(\w+(\_|\-|\.)*)+@(\w+(\-)?)+(\.\w{2,})+$/;
          msg={'success':'邮箱输入正确','error':tips};
          break;
     }
